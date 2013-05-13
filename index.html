@@ -1,0 +1,282 @@
+<div class="navbar" id="nav">
+  <span class="toggle"><a href="#nav" class="caret-up"></a></span>
+    <span class="toggle"><a href="#menu"  id="menu" class="caret-down"></a></span>
+  <span class="project" data-text="Template"></span>
+  <ul>
+    <li><a class="active" href="#">The Demo</a></li>
+    <li class="desktop"><a href="#">Desktop</a></li>
+    <li class="tablet"><a href="#">Tablet</a></li>
+    <li class="mobile"><a href="#">Mobile</a></li>    
+  </ul>  
+</div>
+
+<div class="content">
+  
+  <article>
+    <h1>UI Kit</h1>
+    <section>
+  
+    <blockquote>
+    <p>This could be something cool. But probably not.</p>
+      <small>Adam Blum, Web Designer</small>
+  </blockquote>
+      <h4>Features</h4>
+      <dl>
+<dt class="nosign">Typography</dt>
+<dd>
+<ul class="checks">
+<li><u>h1</u> &ndash; <u>h6</u> elements</li>
+<li>Forms and inputs</li>
+  <li>Font stacks: <span class="sans-serif">sans-serif</span>, <span class="serif">serif</span>, and <span class="monospace">monospace</span>.</li>
+  <li><u>blockquote</u>, etc.</li>
+</ul>
+</dd> 
+        
+<dt class="nosign">CSS3 &amp; HTML 5</dt>
+<dd>
+<ul class="checks">
+<li>CSS3 transitions, filters</li>
+<li><code>data-*</code> attributes</li>
+  <li>SVG styling</li>
+</ul>
+</dd>
+        
+<dt class="nosign">jQuery</dt>
+<dd>
+<ul class="checks">
+<li>Modal windows</li>
+  <li>SVG icon script &mdash; turns <u>span</u> elements with the <code>svg</code> class into svg icons!</li>
+</ul>
+</dd> 
+</dl>
+      
+      
+  <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, <a href="#" data-tooltip="top tooltip" data-placement="top">sed diam voluptua</a>. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+      <h5>Modals</h5>
+      <p>The modal windows look pretty sweet, in my humble opinion. Click the button below to view an example (press cancel to close it). Oh yeah, and the top bar is draggable. Try it!</p>
+<a href="#" id="open-modal" class="btn center">Modal Time!</a>
+      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+      
+      <h5>Code</h5>
+      <p>Code can be written either inline using the <u>code</u> element, or as a block using the <u>pre</u> element. To automatically insert the html tags, use the <u>u</u> element. Wrapping the <u>u</u> element in a <u>code</u> element is not necessary. To make a closing tag, such as <u data-end>html</u>use the <code>data-end</code> attribute. To make a self-closing tag, such as <u data-self>img</u>, use the <code>data-self</code> attribute. These attributes to not need values.</p>
+<pre data-lang="jQuery">
+/* some text wrapped in a <u>pre</u> tag, with a <code>data-lang</code> attribute to set the language in the top-right corner. */
+$('.minus svg path').attr('d', 'M25.979,12.896,5.979,12.896,5.979,19.562,25.979,19.562z');
+</pre>
+      
+    </section>
+<aside>
+  <h6>Aside</h6>
+  <p>This is an aside. All content over here on the right is wrapped in an <u>aside</u> tag.</p>
+
+      <dt class="exp">Form</dt>
+    <dd>
+<form>
+
+
+  <!--<label for="user">Username</label>-->
+  <input type="text" name="user" id="user" placeholder="Username" autocomplete="off" />
+
+  <!--<label for="pass">Password</label>-->
+  <input type="password" name="pass" id="pass" placeholder="Password" autocomplete="off" />
+<footer>
+<button class="btn ">Submit</button>
+</footer>
+
+  
+  <!-- <button class="btn mute">Cancel</button>-->
+
+
+ <!-- <a href="#" class="close">&times;</a>-->
+  
+  </form>
+    </dd>
+
+
+  </aside>
+    
+  </article>
+  
+  
+  
+  <article>
+    
+    
+    <section>
+      <h4>Buttons</h4>
+      <p>Some awesome buttons, man.</p>
+<a class="btn">btn</a>
+<a class="btn lite">+ lite</a>
+<a class="btn err">+ err</a>
+<a class="btn mute">+ mute</a>
+<a class="btn lite dl">+ dl</a>
+
+
+
+      <h5>Menu</h5>  
+      <p>This is a static (non-fixed) menu bar that you could use anywhere. Includes dropdowns.</p>
+      <ul class="menu">
+    <li><a href="#">home</a></li>
+    <li><a class="caret" href="#">item</a>
+        <ul class="sub-menu">
+          <li><a href="#">sub item</a></li>
+          <li><a href="#">sub item</a></li>
+          <li><a href="#">sub item</a></li>
+        </ul>
+    </li>
+    <li><a href="#">item</a></li>
+</ul>
+      
+      
+      
+      
+    </section>
+
+    
+    <aside>
+   
+  <h4>Accordion</h4>
+      <p>Everybody likes accordions, right? These are made using the data list elements &mdash; <u>dl</u> <u>dt</u> and <u>dd</u>. If you don't like the plus/minus signs in the corner, just add a <code>nosign</code> class to the <u>dt</u>.</p>
+  <dl>
+  <dt>Question 1</dt>
+  <dd>Here is our answer to question 1</dd>
+  <dt>Question 2</dt>
+  <dd>Here is our answer to question 2</dd>
+  <dt>Question 3</dt>
+  <dd>Here is our answer to question 3</dd>
+  <dt class="nosign">With <code>nosign</code> class</dt>
+  <dd>Here is our answer to question 3</dd> 
+</dl>
+      
+
+
+    </aside>
+    
+    
+  </article>
+
+
+
+  
+  
+  
+  <article>
+    
+
+      <h3>SVG Icons</h3>
+      <p>These flexible icons are pretty awesome, I'm just saying. <del>In order to get the scale effect to work without the page flickering, I have to use <code>scale3d(x, x, x)</code> to these elements to enable hardware acceleration. Unfortunately, this makes the icons appear blurry sometimes. If anyone knows a solution, let me know!</del> I fixed the blurry thing, but this is still a work in progress.</p>
+
+      <span class="svg mobile small"></span>
+<span class="svg desktop large"></span>
+    
+    <span class="svg firefox"></span>
+<span class="svg opera"></span>
+<span class="svg safari"></span>
+<span class="svg heart"></span>
+    
+    
+    
+    
+<div class="icon-container">
+      
+<span class="svg check"></span>
+<span class="svg x"></span>
+<span class="svg plus"></span>
+<span class="svg minus"></span>
+<span class="svg chrome"></span>
+<span class="svg amenu"></span>     
+<span class="svg tablet"></span>
+<span class="svg mobile"></span>
+<span class="svg desktop"></span>
+<span class="svg ie"></span>
+<span class="svg checkbox"></span>
+<span class="svg checked"></span> 
+<span class="svg firefox"></span>
+<span class="svg opera"></span>
+<span class="svg safari"></span>
+<span class="svg heart"></span>
+<span class="svg chrome"></span>
+<span class="svg amenu"></span>     
+<span class="svg tablet"></span>
+<span class="svg mobile"></span>
+<span class="svg desktop"></span>
+<span class="svg minus"></span>
+<span class="svg check"></span>
+<span class="svg check"></span> 
+<span class="svg check"></span>
+<span class="svg x"></span>
+<span class="svg plus"></span>
+<span class="svg minus"></span>
+<span class="svg chrome"></span>
+<span class="svg amenu"></span>     
+<span class="svg tablet"></span>
+<span class="svg mobile"></span>
+<span class="svg desktop"></span>
+<span class="svg minus"></span>
+<span class="svg check"></span>
+<span class="svg check"></span> 
+<span class="svg check"></span>
+<span class="svg x"></span>
+<span class="svg plus"></span>
+<span class="svg minus"></span>
+<span class="svg chrome"></span>
+<span class="svg amenu"></span>     
+<span class="svg tablet"></span>
+<span class="svg mobile"></span>
+<span class="svg desktop"></span>
+<span class="svg minus"></span>
+<span class="svg check"></span>
+<span class="svg check"></span> 
+<span class="svg check"></span>
+<span class="svg x"></span>
+<span class="svg plus"></span>
+<span class="svg minus"></span>
+<span class="svg chrome"></span>
+<span class="svg amenu"></span>     
+<span class="svg tablet"></span>
+<span class="svg mobile"></span>
+<span class="svg desktop"></span>
+<span class="svg minus"></span>
+<span class="svg check"></span>
+<span class="svg check"></span> 
+<span class="svg check"></span>
+<span class="svg x"></span>
+<span class="svg plus"></span>
+<span class="svg minus"></span>
+<span class="svg chrome"></span>
+<span class="svg amenu"></span>     
+<span class="svg tablet"></span>
+<span class="svg mobile"></span>
+<span class="svg desktop"></span>
+<span class="svg minus"></span>
+<span class="svg check"></span>
+<span class="svg check"></span> 
+      
+      </div>
+
+      
+
+    
+    
+  </article>
+ 
+  
+  
+
+
+
+
+</div>
+
+
+
+
+<div id="modal">
+<span>&nbsp;</span>
+<form>
+<input type="text" name="user" id="user" placeholder="Username" autocomplete="off" />
+<input type="password" name="pass" id="pass" placeholder="Password" autocomplete="off" />
+<button class="btn ">Submit</button>
+<button class="btn mute close-modal">Cancel</button></form>
+</div>
+
